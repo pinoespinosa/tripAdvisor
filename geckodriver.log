@@ -1,0 +1,83 @@
+1502287754064	geckodriver	INFO	geckodriver 0.18.0
+1502287754067	geckodriver	INFO	Listening on 127.0.0.1:44643
+1502287755169	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287759052	Marionette	INFO	Listening on port 45559
+1502287759099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502287779750	geckodriver	INFO	geckodriver 0.18.0
+1502287779753	geckodriver	INFO	Listening on 127.0.0.1:60573
+1502287780848	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287784583	Marionette	INFO	Listening on port 42389
+1502287784724	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    documentElement@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:1137:1
+handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+receiveMessage@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:761:7
+
+documentElement@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:1137:1
+handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+receiveMessage@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:761:7
+1502287860007	geckodriver	INFO	geckodriver 0.18.0
+1502287860010	geckodriver	INFO	Listening on 127.0.0.1:59623
+1502287861136	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287864068	Marionette	INFO	Listening on port 37415
+1502287864312	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502287882913	geckodriver	INFO	geckodriver 0.18.0
+1502287882916	geckodriver	INFO	Listening on 127.0.0.1:53305
+1502287884011	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287887614	Marionette	INFO	Listening on port 45057
+1502287887656	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502287905128	geckodriver	INFO	geckodriver 0.18.0
+1502287905131	geckodriver	INFO	Listening on 127.0.0.1:41931
+1502287906221	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287909631	Marionette	INFO	Listening on port 33473
+1502287909769	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502287930382	geckodriver	INFO	geckodriver 0.18.0
+1502287930387	geckodriver	INFO	Listening on 127.0.0.1:48871
+1502287931477	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287936629	Marionette	INFO	Listening on port 46237
+1502287936675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502287952030	geckodriver	INFO	geckodriver 0.18.0
+1502287952032	geckodriver	INFO	Listening on 127.0.0.1:42891
+1502287953131	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287959394	Marionette	INFO	Listening on port 33905
+1502287959630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502287980027	geckodriver	INFO	geckodriver 0.18.0
+1502287980030	geckodriver	INFO	Listening on 127.0.0.1:49359
+1502287981199	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502287986856	Marionette	INFO	Listening on port 34727
+1502287987002	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502288003768	geckodriver	INFO	geckodriver 0.18.0
+1502288003774	geckodriver	INFO	Listening on 127.0.0.1:54071
+1502288004852	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502288020895	Marionette	INFO	Listening on port 39151
+1502288021188	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502288065835	geckodriver	INFO	geckodriver 0.18.0
+1502288065839	geckodriver	INFO	Listening on 127.0.0.1:36807
+1502288067078	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502288074985	Marionette	INFO	Listening on port 33723
+1502288075156	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502288093793	geckodriver	INFO	geckodriver 0.18.0
+1502288093817	geckodriver	INFO	Listening on 127.0.0.1:45495
+1502288094924	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502288107718	Marionette	INFO	Listening on port 43235
+1502288107997	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+1502288131016	geckodriver	INFO	geckodriver 0.18.0
+1502288131018	geckodriver	INFO	Listening on 127.0.0.1:36775
+1502288132128	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1502288141754	Marionette	INFO	Listening on port 43861
+1502288141821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v23900594016b.js, line 1: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
