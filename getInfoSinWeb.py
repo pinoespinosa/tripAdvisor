@@ -26,7 +26,7 @@ def loadFileDescargados():
 def createFileCSV(filename):
 	file = open(filename +'.csv',"w") 
 	file.write(	'Name,Description,Phone,Directions,Website,Email,Cuisines,Horarios,Feactures,Meals,GoodFor,Url\n')
-
+	
 	for valor in listaCSV:
 		yourstring = valor.encode('ascii', 'ignore').decode('ascii')
 		file.write(yourstring + '\n'); 	 
@@ -48,7 +48,8 @@ loadFileDescargados()
 iterar = 0;
 archi = 0;
 
-browser = webdriver.Firefox()
+#browser = webdriver.Firefox()
+
 
 for url in lista_URL:
 	iterar=iterar+1;
@@ -131,28 +132,28 @@ for url in lista_URL:
 
 
 	website = '';
-	try:
-
-		pino = '1';
-		for aa in browser.window_handles:
-			if (pino == '1'):
-				pino='true'
-			else:
-				browser.switch_to_window(aa)
-				browser.close()
-		browser.switch_to_window(browser.window_handles[0])
-		browser.get(url)
-		browser.find_element_by_css_selector('div.blEntry:nth-child(3)').click();
-		browser.switch_to_window(browser.window_handles[1])
-		website = browser.current_url
-		while( "about:blank" in website):
-			time.sleep(5)
-			website = browser.current_url
-		browser.close()
-
-	except :
-		website = '';
-
+#	try:
+#
+#		pino = '1';
+#		for aa in browser.window_handles:
+#			if (pino == '1'):
+#				pino='true'
+#			else:
+#				browser.switch_to_window(aa)
+#				browser.close()
+#		browser.switch_to_window(browser.window_handles[0])
+#		browser.get(url)
+#		browser.find_element_by_css_selector('div.blEntry:nth-child(3)').click();
+#		browser.switch_to_window(browser.window_handles[1])
+#		website = browser.current_url
+#		while( "about:blank" in website):
+#			time.sleep(5)
+#			website = browser.current_url
+#		browser.close()
+#
+#	except :
+#		website = '';
+		
 	print (nombre + ' ' + website)
 	listaCSV.append( '"' + nombre.replace("\"","") +'","'+ descri.replace("\"","") +'","'+ tel.replace("\"","") +'","'+ dire.replace("\"","") +'","'+ website.replace("\"","") +'","'+ email.replace("\"","") +'","'+ cuisines.replace("\"","") +'","'+ horaComp.replace("\"","") +'","'+ features.replace("\"","") +'","'+ meals.replace("\"","") +'","'+ goodFor.replace("\"","") +'","'+ url.replace("\"","") + '"')
 
